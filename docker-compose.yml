@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    image: somkiat/login_web:1.0
+    build:
+      context: .
+    ports:
+      - "8000:7272"
